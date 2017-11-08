@@ -10,4 +10,10 @@ int main(){
 	cin >>gp;
 	cout <<"Masukan Jam Kerja Anda : ";
 	cin >>jk;
+	
+	lembur=jk-40;
+	gt=(lembur*1.5+40)*gp;
+	pajak=gt*0.15;
+	gk=gt-pajak;
+	
 }
